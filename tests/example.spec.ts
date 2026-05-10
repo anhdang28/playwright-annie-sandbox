@@ -9,6 +9,7 @@ test('has title', async ({ page }) => {
 
 test('get started link', async ({ page }) => {
   await page.goto('https://material.playwrightvn.com/');
+  await page.goto('https://material1.playwrightvn.com/');
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Bài học 1: Register Page' }).click();
