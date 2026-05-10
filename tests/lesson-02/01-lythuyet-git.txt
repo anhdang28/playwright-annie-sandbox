@@ -1,0 +1,7 @@
+git init is the command to create/initialize a new git repository in the current directory
+
+git add <file_name> is the command to add a specific file from the working directory to the staging area
+
+git add . is the command to add all files which are currently in the working directory to the staging area
+
+git commit -m "message" is command to commit all files which are in the staging area to the repository with message
